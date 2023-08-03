@@ -23,14 +23,6 @@
         <version>3.1.1</version>
     </parent>
 
-    <repositories>
-        <repository>
-            <id>data-local</id>
-            <name>data</name>
-            <url>file://${project.basedir}/repo</url>
-        </repository>
-    </repositories>
-
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
@@ -161,11 +153,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>gov.nasa.drf</groupId>
-            <artifactId>lib</artifactId>
-            <version>1.0</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

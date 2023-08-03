@@ -1,7 +1,5 @@
 package gov.nasa.drf.test.accesscontrol;
 
-import com.auth0.jwt.exceptions.JWTDecodeException;
-
 import java.util.*;
 
 public class Jwt {
@@ -15,7 +13,7 @@ public class Jwt {
 
     }
 
-    public static Set<String> extractSubjectRoles(String tokenStr) throws JWTDecodeException {
+    public static Set<String> extractSubjectRoles(String tokenStr) {
         return new HashSet<>();
     }
 
